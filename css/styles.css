@@ -213,18 +213,33 @@ img {
   text-align: center;
 }
 
-/* principles */
-.principles-list {
+/* advantages */
+.advantages-list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   text-align: left;
 }
-.principles-text {
+.advantages-text {
   width: 264px;
 }
-.principles-text:not(:last-child) {
+.advantages-text:not(:last-child) {
   margin-right: 24px;
+}
+.advantages-h3 {
+  margin-top: 8px;
+}
+.advantage {
+  display: block;
+}
+.element {
+  width: 264px;
+  height: 112px;
+  background: var(--color-background-btn-other);
+  border-radius: 4px;
+  justify-content: center;
+  align-content: center;
+  padding: 24px 102px;
 }
 
 /* WORK */
@@ -310,13 +325,17 @@ img {
   padding: 16px 32px;
 }
 .customers-icon {
-  fill: currentColor;
+  fill: var(--color-customer-logo);
 }
-.link-customers:hover,
-.link-customers:focus {
-  color: var(--color-link);
+.customers-logo:hover,
+.customers-logo:focus {
   border-color: var(--color-link);
 }
+.link-customers:hover.customers-icon,
+.link-customers:focus.customers-icon {
+  color: var(--color-link);
+}
+
 /* FOOTER */
 .footer {
   padding-top: 100px;
