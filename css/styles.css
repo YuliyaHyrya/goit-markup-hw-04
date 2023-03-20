@@ -321,6 +321,7 @@ img {
   height: 80px;
   justify-content: left;
 }
+
 .social-list-footer {
   display: flex;
   gap: 16px;
@@ -334,15 +335,12 @@ img {
 
 .social-link-list-ftr {
   display: flex;
-
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  color: var(--color-background-btn-other);
+  background-color: var(--primary-color-text);
   align-items: center;
   justify-content: center;
-  background: var(--theme-dark-color-text) #ffffff;
-  opacity: 0.1;
 }
 
 .social-link-list-ftr:hover,
