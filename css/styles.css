@@ -230,16 +230,14 @@ img {
 .advantages-h3 {
   margin-top: 8px;
 }
-.advantage {
-  display: block;
-}
+
 .element {
   width: 264px;
   height: 112px;
   background: var(--color-background-btn-other);
   border-radius: 4px;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   padding: 24px 102px;
 }
 
