@@ -462,6 +462,9 @@ img {
   text-decoration: none;
   display: block;
 }
+.text-card {
+  color: var(--primary-color-text);
+}
 
 .card-shadow-link:hover,
 .card-shadow-link:focus {
