@@ -237,10 +237,14 @@ img {
   background: var(--color-background-btn-other);
   border-radius: 4px;
   justify-content: center;
-  align-items: center;
-  padding: 24px 102px;
+  position: relative;
 }
-
+.advantages-list-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /* WORK */
 .work {
   padding-top: 0;
